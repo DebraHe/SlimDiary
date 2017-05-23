@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/atylogin_vertical_margin"
+    android:paddingLeft="@dimen/atylogin_horizontal_margin"
+    android:paddingRight="@dimen/atylogin_horizontal_margin"
+    android:paddingTop="@dimen/atylogin_vertical_margin">
+
+
+    <RelativeLayout
+        android:id="@+id/login_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp">
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/aty_login_Sign_in"
+            android:id="@+id/login_btn_sign_in"
+            android:background="#b8e5ed"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/login_edit_pwd"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@mipmap/icon_password"
+            android:ems="16"
+            android:id="@+id/login_edit_pwd"
+            android:hint="@string/aty_login_Password"
+            android:layout_below="@+id/login_edit_account"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:drawableLeft="@mipmap/icon_mobile"
+            android:layout_below="@+id/logo"
+            android:id="@+id/login_edit_account"
+            android:hint="@string/aty_login_Mobile"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/logo"
+            android:layout_alignWithParentIfMissing="false"
+            android:background="@drawable/logo_big"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/sign_forgotpw"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/login_btn_sign_in"
+            android:layout_marginTop="20dp" >
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:clickable="true"
+                android:text="@string/aty_login_New_here_Sign_up"
+                android:id="@+id/login_text_register"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="@string/aty_login_Forgot_password"
+                android:id="@+id/login_text_change_pwd"
+                android:clickable="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="right"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

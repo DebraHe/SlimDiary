@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider"
+        android:id="@+id/view_top"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/view_top"
+        android:id="@+id/linearlayout_top">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <com.example.joseph.slimdiary.DIYView.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/iv_layout_theirs_item_head_pic"
+                android:src="@mipmap/ic_account_circle_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="6"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_layout_theirs_item_nickname"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="@color/colorBigBigGray"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider"
+        android:layout_below="@+id/linearlayout_top"
+        android:id="@+id/view_middle"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_middle"
+        android:layout_above="@+id/linearlayout_bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:text="@string/layout_mime_item_content_Lunch"
+                android:textColor="#292727"
+                android:gravity="center" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:id="@+id/tv_layout_mime_item_content_Lunch"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:text="@string/layout_mime_item_content_Exercise"
+                android:textColor="#292727"
+                android:gravity="center" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:id="@+id/tv_layout_mime_item_content_Exercise"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:text="@string/layout_mime_item_content_Self_evaluation"
+                android:textColor="#292727"
+                android:gravity="center" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:id="@+id/tv_layout_mime_item_content_Self_evaluation"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:text="@string/layout_mime_item_content_Private_thing"
+                android:textColor="#292727"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:id="@+id/tv_layout_mime_item_content_Private_thing"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:background="@drawable/ic_shelf_category_divider" />
+        </LinearLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider"
+        android:layout_above="@+id/linearlayout_bottom"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/linearlayout_bottom">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:text="@string/btn_layout_add_new_diary_cancel"
+            android:textColor="#292727"
+            android:textAllCaps="false"
+            android:background="@drawable/diy_button"
+            android:id="@+id/btn_layout_add_new_diary_cancel"
+            android:layout_marginRight="30dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/diy_button"
+            android:layout_marginLeft="30dp"
+            android:text="@string/savebtn_layout_add_new_diary_save"
+            android:textColor="#292727"
+            android:textAllCaps="false"
+            android:id="@+id/btn_layout_add_new_diary_save"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

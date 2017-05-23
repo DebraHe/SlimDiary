@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#e0e0e0</color>
+    <color name="colorAccent">#fb8b8f</color>
+    <color name="colorSmallSmallGray">#bdbdbd</color>
+    <color name="colorSmallGray">#eeeeee</color>
+    <color name="colorGray">#9b9ea2</color>
+    <color name="colorMiddleGary">#a9aeb3</color>
+    <color name="colorBigGray">#484848</color>
+    <color name="colorBigBigGray">#212121</color>
+    <color name="colorGrayPadding">#d7d7d7</color>
+    <color name="colorGrayLine">#e8e8e8</color>
+
+</resources>

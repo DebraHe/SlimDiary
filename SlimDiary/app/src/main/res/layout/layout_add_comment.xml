@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="101dp"
+    android:id="@+id/layout_add_comment"
+    android:background="#ffffff">
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Input comment"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/et_layout_add_comment" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+</LinearLayout>

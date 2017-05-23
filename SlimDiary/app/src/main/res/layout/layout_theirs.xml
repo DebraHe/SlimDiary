@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:clickable="true"
+            android:id="@+id/relativelayout_Recommend">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_above="@+id/view_Recommend">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:gravity="center_vertical"
+                    android:text="Recommend"
+                    android:textColor="@color/colorGray"
+                    android:textSize="13.0sp"
+                    android:id="@+id/tv_my_guding_Recommends"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3.0dip"
+                android:background="@color/colorGrayPadding"
+                android:id="@+id/view_Recommend"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/relativelayout_Follow">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+
+                android:layout_above="@+id/view_Follow">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:gravity="center_vertical"
+                    android:text="Follow"
+                    android:textColor="@color/colorGray"
+                    android:textSize="13.0sp"
+                    android:id="@+id/tv_my_guding_Follows"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3.0dip"
+                android:background="@color/colorGrayPadding"
+                android:id="@+id/view_Follow"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:id="@+id/relativelayout_Ask">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+
+                android:layout_above="@+id/view_Ask">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40.0dip"
+                    android:gravity="center_vertical"
+                    android:text="Ask"
+                    android:textColor="@color/colorGray"
+                    android:textSize="13.0sp"
+                    android:id="@+id/tv_my_guding_Asks"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3.0dip"
+                android:background="@color/colorGrayPadding"
+                android:id="@+id/view_Ask"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_layout_theirs">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <com.example.joseph.slimdiary.DIYView.CircleImageView
+            android:layout_width="60dp"
+            android:clickable="true"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_head_pic"
+            android:src="@mipmap/ic_account_circle_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_weight="6"
+                android:id="@+id/tv_nickname"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="@color/colorBigBigGray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_time"
+                android:textSize="12sp"
+                android:textColor="@color/colorMiddleGary"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_done_black_24dp"
+            android:focusable = "false"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability= "blocksDescendants"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearlayout_top"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.example.joseph.slimdiary.DIYView.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_layout_theirs_item_head_pic"
+            android:src="@mipmap/ic_account_circle_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_weight="6"
+                android:id="@+id/tv_layout_theirs_item_nickname"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="@color/colorBigBigGray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_layout_theirs_item_Time"
+                android:textSize="12sp"
+                android:textColor="@color/colorMiddleGary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/colorBigBigGray"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:id="@+id/tv_layout_theirs_item_Self_evaluation"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/colorGrayLine" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10.0dip"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorSmallGray" />
+
+</LinearLayout>
+
+

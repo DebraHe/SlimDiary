@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/layout_sliding_left_Settings">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_label_outline_black_24dp"
+                android:title="@string/layout_sliding_left_Daily_diary_reminder"
+                android:id="@+id/tv_nickname" />
+            <item
+                android:icon="@mipmap/ic_label_outline_black_24dp"
+                android:title="@string/layout_sliding_left_Screen_lock"
+                android:id="@+id/tv_head_pic"/>
+            <item
+                android:icon="@mipmap/ic_label_outline_black_24dp"
+                android:title="@string/layout_sliding_left_Help_and_feedback"
+                android:id="@+id/tv_password"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/layout_sliding_left_Switch_user">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_user_information"
+                android:title="@string/layout_sliding_left_Login_out"
+                android:id="@+id/btn_login_out"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SlimDiary</string>
+    <string name="register_phone">Register</string>
+
+
+    <string name="Mine">Mine</string>
+    <string name="Theirs">Theirs</string>
+    <string name="Messages">Messages</string>
+
+
+
+    <string name="aty_login_Mobile">"  Mobile"</string>
+    <string name="aty_login_Password">" Password"</string>
+    <string name="aty_login_Sign_in">Sign in</string>
+    <string name="aty_login_New_here_Sign_up">"   New here?Sign Up"</string>
+    <string name="aty_login_Forgot_password">"Forgot password?   "</string>
+
+
+    <string name="layout_sliding_left_Nickname">Nickname</string>
+    <string name="layout_sliding_left_Settings">Change Information</string>
+    <string name="layout_sliding_left_Daily_diary_reminder">"   Nickname"</string>
+    <string name="layout_sliding_left_Screen_lock">"   Head Picture"</string>
+    <string name="layout_sliding_left_Help_and_feedback">"   Password"</string>
+    <string name="layout_sliding_left_User_information">"   User information"</string>
+    <string name="layout_sliding_left_Switch_user">"   Switch user"</string>
+    <string name="layout_sliding_left_Login_out">"   Login out"</string>
+    <string name="layout_sliding_right_Friends">Friends</string>
+    <string name="layout_sliding_right_My_friends">"   My friends"</string>
+    <string name="layout_sliding_right_My_likes">"   My likes"</string>
+    <string name="layout_sliding_right_My_comments">"   My comments"</string>
+    <string name="layout_sliding_right_New_friends">"   New friends"</string>
+    <string name="layout_sliding_right_My_collects">"   My collects"</string>
+
+    <string name="layout_mine_Record_your_life">"   Record your life ..."</string>
+    <string name="layout_mime_item_Self_evaluation">Self Evaluation</string>
+    <string name="layout_mime_item_Private_thing">Private Thing</string>
+
+
+    <string name="layout_mime_item_content_Breakfast">Breakfast</string>
+    <string name="layout_mime_item_content_Lunch">Eat</string>
+    <string name="layout_mime_item_content_Dinner">Dinner</string>
+    <string name="layout_mime_item_content_Exercise">Exercise</string>
+    <string name="layout_mime_item_content_Self_evaluation">Self Evaluation</string>
+    <string name="layout_mime_item_content_Private_thing">Private Thing</string>
+
+    <string name="layout_theirs_Recommend">Recommend</string>
+    <string name="layout_theirs_Follow">Follow</string>
+    <string name="layout_theirs_Ask">Ask</string>
+    <string name="layout_theirs_item_add_follow">+ Follow</string>
+    <string name="layout_theirs_item_delete_follow">√ Follow</string>
+
+    <string name="layout_theirs_item_content_Breakfast">Breakfast</string>
+    <string name="layout_theirs_item_content_Lunch">Lunch</string>
+    <string name="layout_theirs_item_content_Dinner">Dinner</string>
+    <string name="layout_theirs_item_content_Exercise">Exercise</string>
+    <string name="layout_theirs_item_content_Self_evaluation">Self Evaluation</string>
+    <string name="btn_layout_add_new_diary_cancel">Cancel</string>
+    <string name="savebtn_layout_add_new_diary_save">Save</string>
+    <string name="btn_layout_theirs_item_comment">Comment</string>
+    <string name="btn_layout_theirs_item_delete">Delete</string>
+    <string name="btn_layout_theirs_item_collect">+ Collect</string>
+    <string name="btn_layout_theirs_item_delete_collect">√ Collect</string>
+</resources>

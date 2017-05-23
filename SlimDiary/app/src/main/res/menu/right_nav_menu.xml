@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/layout_sliding_right_Friends">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_my_friends"
+                android:title="@string/layout_sliding_right_My_friends"
+                android:id="@+id/tv_my_friends" />
+            <item
+                android:icon="@mipmap/ic_star_border_black_24dp"
+                android:title="@string/layout_sliding_right_My_collects"
+                android:id="@+id/tv_my_collects"/>
+            <item
+                android:icon="@mipmap/ic_my_likes"
+                android:title="@string/layout_sliding_right_My_likes"
+                android:id="@+id/tv_my_likes"/>
+            <item
+                android:checkableBehavior="none"
+                android:icon="@mipmap/ic_my_comments"
+                android:title="@string/layout_sliding_right_My_comments"
+                android:id="@+id/tv_my_comments"/>
+
+            <item
+                android:icon="@mipmap/ic_new_friends"
+                android:title="@string/layout_sliding_right_New_friends"
+                android:id="@+id/tv_new_friends"/>
+        </menu>
+    </item>
+
+</menu>

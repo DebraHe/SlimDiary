@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability= "blocksDescendants"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <com.example.joseph.slimdiary.DIYView.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_head_pic"
+            android:src="@mipmap/ic_account_circle_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_weight="6"
+                android:id="@+id/tv_nickname"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="@color/colorBigBigGray"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_time"
+                android:textSize="12sp"
+                android:textColor="@color/colorMiddleGary"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_chat_bubble_outline_black_24dp"
+            android:focusable = "false"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:textSize="17sp"
+        android:textColor="@color/colorBigBigGray"
+        android:id="@+id/tv_diary_self_evaluation"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="60dp"
+        android:background="@color/colorGrayLine" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:textSize="17sp"
+        android:textColor="@color/colorBigBigGray"
+        android:id="@+id/tv_diary_comment"/>
+</LinearLayout>
